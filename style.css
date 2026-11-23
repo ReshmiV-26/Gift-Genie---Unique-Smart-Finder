@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff0f5;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #d96c9d;
+    color: white;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.container {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #c04d83;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
+}
+
+button {
+    background: #d96c9d;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 8px;
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #b94d80;
+}
+
+.hidden {
+    display: none;
+}
+
+#result {
+    margin-top: 30px;
+}
+
+#giftList {
+    line-height: 2;
+}
+
+footer {
+    padding: 20px;
+    color: #777;
+}
